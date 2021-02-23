@@ -7,13 +7,19 @@ function Movie(props) {
         Poster
     } = props;
 
-    return  <div className="card movie">
+    return  <div id={imdbID} className="card movie">
     <div className="card-image waves-effect waves-block waves-light">
-      <img className="activator" src="images/office.jpg" />
+        {
+            Poster === 'N/A' ? 
+            <img className="activator" src={'https://via.placeholder.com/300x150?text=' + Title} />
+            :
+            <img className="activator" src={Poster} />
+
+        }
     </div>
     <div className="card-content">
-      <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
+      <span className="card-title activator grey-text text-darken-4">{Title}</span>
+      <p>{Year} <span className="right">{Type}</span></p>
     </div>
   </div>
 }
