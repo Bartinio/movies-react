@@ -15,7 +15,7 @@ class Search extends React.Component{
     render() {
         return <div className="row">
         <div className="input-field col s12">
-          <i className="material-icons prefix" style={{color: '#ee6e73' }}>search</i>
+          <i className="material-icons prefix" style={{color: '#ee6e73', cursor: 'pointer' }} onClick={() => this.props.searchMovies(this.state.search)}>search</i>
           <input 
             className="validate" 
             id="icon_prefix"
