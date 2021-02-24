@@ -12,7 +12,7 @@ class Main extends React.Component {
       .then((response) => response.json())
       .then((data) => this.setState({ movies: data.Search }));
   }
-
+  // Here we are searchin the Movies in our API
   searchMovies = (str) => {
     fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=464dfd53&s=${str}`)
       .then((response) => response.json())
