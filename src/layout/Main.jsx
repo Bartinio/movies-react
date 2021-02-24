@@ -6,7 +6,7 @@ class Main extends React.Component {
   state = {
     movies: [],
   };
-
+  // getting an API omdbAPI.
   componentDidMount() {
     fetch('http://www.omdbapi.com/?i=tt3896198&apikey=464dfd53&s=Matrix')
       .then((response) => response.json())
