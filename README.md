@@ -13,52 +13,7 @@ In the project directory, you can run:
 | 3 	| Simon Avlosi   	| Facebook     	| https://gist.github.com/ 	| 36%    	| +  	| v63 	| hx669 	|
 | 4 	| Albert Spooner 	| IBM          	| https://gist.github.com/ 	| 68%    	| +  	| v25 	| hx587 	|
 
-<table>
-<thead>
-  <tr>
-    <th>1</th>
-    <th style="background-color: red">Name</th>
-    <th>Organization</th>
-    <th>Gists</th>
-    <th>Volume</th>
-    <th>Ex</th>
-    <th>VX</th>
-    <th>HX</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>2</td>
-    <td>Lars Koskella</td>
-    <td>Google</td>
-    <td><a href="https://gist.github.com/">https://gist.github.com/</a></td>
-    <td>52%</td>
-    <td>-</td>
-    <td>q69</td>
-    <td>h32</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Simon Avlosi</td>
-    <td>Facebook</td>
-    <td><a href="https://gist.github.com/">https://gist.github.com/</a></td>
-    <td>36%</td>
-    <td>+</td>
-    <td>v63</td>
-    <td>hx669</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Albert Spooner</td>
-    <td>IBM</td>
-    <td><a href="https://gist.github.com/">https://gist.github.com/</a></td>
-    <td>68%</td>
-    <td>+</td>
-    <td>v25</td>
-    <td>hx587</td>
-  </tr>
-</tbody>
-</table>
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
