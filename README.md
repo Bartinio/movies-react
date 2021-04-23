@@ -9,3 +9,10 @@
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
