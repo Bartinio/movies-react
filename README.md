@@ -17,4 +17,4 @@ alert(s);
 }
 ```
 
-### My Great Heading {#custom-id}
+### My Great Heading
