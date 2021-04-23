@@ -8,9 +8,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
-|npm|node.js|
-|---+-------|
-|12 |reame.m|
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
